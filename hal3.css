@@ -1,0 +1,286 @@
+/* General reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    background-color: #d1e8e4;
+    opacity: 0.95;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    padding: 4px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 30px 0 0;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e3c3c;
+    padding: 8px 15px;
+    background-color: #f6fbfb;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #a7c4c2;
+    color: #1d2b2b;
+}
+
+
+/* HEADER */
+
+header {
+    margin-top: 120px;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.Gotak {
+    width: 170px;
+}
+
+
+/* SECTION CONTENT */
+
+.content0 {
+    display: flex;
+    /* background-color: #d1e8e4; */
+    background-color: white;
+    justify-content: space-between;
+    height: 750px;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 300px;
+    background-color: #f4faff;
+    border-radius: 12px;
+    transition: transform 0.25s ease;
+    /* margin-right: 10px; */
+}
+
+.sidebar:hover {
+    transform: scale(1.02);
+}
+
+.sidebar h2,
+.Ndokter {
+    text-align: center;
+}
+
+.sidebar p {
+    text-align: left;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.sidebar .btn {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 90px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+/* IMAGE */
+
+.tirta {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto 0 auto;
+    padding-top: 75px;
+}
+
+
+/* SUB CONTENT */
+
+.cSub {
+    background-color: #d1e8e4;
+    padding: 0 0 0 140px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.sub {
+    background: #d1e8e4;
+    color: black;
+    height: 70vh;
+    width: 700px;
+    /* margin: 50px 110px 0 0; */
+    margin: 0 110px 0 0;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* TABLE */
+
+table {
+    border-radius: 4px;
+    width: 710px;
+    font-size: small;
+}
+
+.HeadB {
+    background-color: #6A0DAD;
+}
+
+.b1 {
+    text-align: justify;
+    height: 35px;
+    background-color: #ECECEC;
+    color: black;
+}
+
+.b2 {
+    background-color: #FFFFFF;
+    text-align: left;
+    height: 35px;
+    color: black;
+}
+
+
+/* BUTTON */
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #7fb77e;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #558564;
+}
+
+.content2 {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.content2 h2 {
+    color: #305252;
+    margin-bottom: 20px;
+}
+
+.content3 {
+    flex-direction: column;
+    background-color: #e5f4f2;
+    border-radius: 20px;
+    text-align: justify;
+    height: 670px;
+    padding-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #407172;
+    border-radius: 20px;
+    transition: transform 0.25s ease;
+}
+
+.flex:hover {
+    transform: scale(1.02);
+}
+
+.flex p {
+    width: 500px;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.flex .flex-gambar {
+    width: 300px;
+    background-color: #ffffff;
+}
+
+.Gcatatan {
+    width: 350px;
+    padding-bottom: 40px;
+}
+
+.Gcatatan2 {
+    width: 300px;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f4faff;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.25s ease;
+}
+
+.card:hover {
+    box-shadow: 0 20px 24px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.card h2 {
+    color: #407172;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    height: 50px;
+    margin-bottom: 12px;
+    color: #4a5c5c;
+}
+
+.content1-img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #305252;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Konsultasi Kesehatan Mental</title>
+    <link rel="stylesheet" href="query.css">
+</head>
+
+<body>
+    <header>
+        <h1>Selamat Datang di Halaman Formulir Konsultasi</h1>
+        <h2>KesehaTan Mental</h2>
+    </header>
+
+    <nav>
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="hal3.html">Evaluasi</a></li>
+            <li><a href="abaout_us.html">Tentang Kami</a></li>
+        </ul>
+    </nav>
+
+    <main class="content0">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="tirta.jpg" alt="dr tirta" class="tirta">
+            <h2>Dr Tirta</h2>
+            <p>Hubungi spesialis kami, lebih dari 100000 orang terbantu setelah konsultasi dengan dr Tirta</p>
+            <a href="https://wa.me/+6285707811342" class="btn" target="_blank">Contact Us</a>
+
+            <div class="button">
+                <p>Kunjungi Pusat Bantuan</p>
+                <a href="query.html" class="btn" target="_blank">Pusat Bantuan</a>
+                <p>Refrensi Warna</p>
+                <a href="https://colorhunt.co/" class="btn" target="_blank">Disini</a>
+                <p>Refrensi Styling</p>
+                <a href="https://www.petanikode.com/" class="btn" target="_blank">Disini</a>
+                <p>TA-2024-2 Kesehatan Mental</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <form id="mentalHealthForm">
+                <div class="flex">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda ">
+                </div>
+
+                <div class="flex">
+                    <label for="umur">Usia : </label>
+                    <input type="text" id="umur" name="umur" placeholder="Masukkan Usia Anda ">
+                </div>
+
+                <div class="flex">
+                    <label>Jenis Kelamin:</label>
+                    <p>Laki-laki</p>
+                    <input type="radio" name="gender" value="Laki-laki">
+                    <p>Perempuan</p>
+                    <input type="radio" name="gender" value="Perempuan">
+                </div>
+
+                <div class="flex">
+                    <label>Topik Konsultasi:</label>
+                    <p>Stres</p>
+                    <input type="checkbox" name="topik" value="Stres">
+                    <p>Cemas</p>
+                    <input type="checkbox" name="topik" value="Cemas">
+                    <p>Depresi</p>
+                    <input type="checkbox" name="topik" value="Depresi">
+                </div>
+
+                <div class="flex">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div class="flex">
+                    <label for="waktu">Waktu Konsultasi:</label>
+                    <select id="waktu" name="waktu">
+                        <option value="">-- Pilih waktu --</option>
+                        <option value="pagi">Pagi</option>
+                        <option value="siang">Siang</option>
+                        <option value="sore">Sore</option>
+                    </select>
+                </div>
+
+                <div class="flex">
+                    <label for="tanggal">Tanggal Konsultasi:</label>
+                    <input type="text" id="tanggal" name="tanggal" placeholder="YYYY-MM-DD">
+                </div>
+
+                <div class="row">
+                    <label for="keluhan">Ceritakan masalah Anda:</label><br>
+                    <textarea id="keluhan" name="keluhan" rows="5" cols="30"></textarea>
+                    <button type="submit" class="btn">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="column">
+            <p>Penangung Jawab Halaman 1 : Alghifari 24-123</p>
+            <p>Penangung Jawab Halaman 2 : Alex 24-121</p>
+            <p>Penangung Jawab Halaman 3 : Sulhan 24-120</p>
+            <p>Penangung Jawab Halaman 4 : Rozikin 24-118</p>
+        </div>
+        <div class="content1 ">
+            <div class="card ">
+                <img src="tirta.jpg " class="content1-img ">
+                <h2>Al Senju</h2>
+                <p>Penangung Jawab Halaman 1 </p>
+                <a href=" " class="btn ">Github</a>
+            </div>
+
+            <div class="card ">
+                <img src="tirta.jpg " class="content1-img ">
+                <h2>Alex Uzumaki</h2>
+                <p>Penangung Jawab Halaman 2
+                </p>
+                <a href=" " class="btn ">Github</a>
+            </div>
+
+            <div class="card ">
+                <img src="tirta.jpg " class="content1-img ">
+                <h2>Sulhan Uciha</h2>
+                <p>Penangung Jawab Halaman 3 </p>
+                <a href=" " class="btn ">Github</a>
+            </div>
+            <div class="card ">
+                <img src="tirta.jpg " class="content1-img ">
+                <h2>Rozikin Hyuga</h2>
+                <p>Penangung Jawab Halaman 4
+                </p>
+                <a href=" " class="btn ">Github</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
